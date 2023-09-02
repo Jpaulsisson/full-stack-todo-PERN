@@ -1,0 +1,7 @@
+CREATE DATABASE Todo_App;
+
+CREATE TABLE todos(
+  id SERIAL PRIMARY KEY,
+  content VARCHAR(255),
+  completed BOOLEAN
+)
